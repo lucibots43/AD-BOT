@@ -1302,7 +1302,7 @@ class AdvancedBot(BaseBot):
             elif msg_lower in ["stop", "استوپ"]:
                 await self.stop_dance(user)
             elif msg_lower in ["سازنده", "creature", "creator", "سازندت", "سازنده بات"]:
-                await self.highrise.chat("👑 سازنده این بات: @ad0ri 👑")
+                await self.highrise.chat("👑 سازنده این بات: @luci.6969👑")
             elif msg_lower.startswith("!"):
                 parts = msg.split()
                 parts_lower = [p.lower() for p in parts]
@@ -1437,7 +1437,7 @@ class AdvancedBot(BaseBot):
             "!party @username عدد - اجرای رقص اجباری برای کاربر\n"
             "!party all عدد - اجرای رقص برای همه\n"
             "!partys @username - توقف رقص اجباری کاربر\n\n"
-            "📩 برای اطلاعات بیشتر به @ad0ri پیام بدید!"
+            "📩 برای اطلاعات بیشتر به @luci.6969 پیام بدید!"
         )
         for chunk in [help_text[i:i+200] for i in range(0, len(help_text), 200)]:
             await self.highrise.chat(chunk)
